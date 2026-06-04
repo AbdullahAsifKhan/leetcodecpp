@@ -6,8 +6,10 @@ int n = 256;
 
 while (n > 0) {
     int digit = n % 10;   
+    //reversed = reversed * 10 + digit;         //for reversing the number
     n = n / 10;           
-    cout << digit << endl;
+    cout << digit << endl;                                                           
+    // cout<< revresed;                          //for reversing the number
 }
 }
 
