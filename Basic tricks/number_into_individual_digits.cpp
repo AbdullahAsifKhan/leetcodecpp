@@ -13,7 +13,7 @@ while (n > 0) {
 }
 }
 
-
+//---------------------------------------------------------------------
 // For String
 //#include <iostream>
 //#include <string>
@@ -27,3 +27,15 @@ while (n > 0) {
 //        cout << name[i] << endl;
 //    }
 //}
+
+//--------------------------------------------
+//Count the number of digits without using Loop
+//
+//int main()
+//{
+//    int n =523;
+//    int count = (int) (log10(n)+1);
+//    cout<<count;
+//
+//}
+
