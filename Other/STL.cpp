@@ -1,30 +1,48 @@
 #include <iostream>
 #include <vector>
+#include <map>
 #include <string>
 #include <algorithm>
-#include <unordered_map>
-#include <unordered_set>
-#include <map>
-#include <set>
-#include <queue>
-#include <stack>
-#include <deque>
-#include <cmath>
-#include <cstring>
-#include <numeric>
-
 using namespace std;
 
-int main()
-{
-    int n;
-    cin>>n;
+int main() {
+      vector<int> numbers = {10, 20, 30};
+    numbers.push_back(40);
+    numbers.push_back(50);
 
-    for(int i=1; i<n; i++){
-        if(n%i==0){
-            cout<<i;
-        }
+      cout << "Vector elements: ";
+    for (int num : numbers) {
+          cout << num << " ";
     }
+      cout << "\nVector size: " << numbers.size() <<   endl;
 
-
+    return 0;
 }
+
+//int main() {
+//      map<  string, int> playerScores;
+//    playerScores["Alice"] = 95;
+//    playerScores["Bob"] = 82;
+//    playerScores["Charlie"] = 88;
+//
+//      cout << "Alice's score: " << playerScores["Alice"] <<   endl;
+//
+//      string searchKey = "Bob";
+//    if (playerScores.find(searchKey) != playerScores.end()) {
+//          cout << searchKey << " is in the game!" <<   endl;
+//    }
+//
+//    return 0;
+//}
+//
+//int main() {
+//      vector<int> scores = {45, 12, 85, 32, 70};
+//      sort(scores.begin(), scores.end());
+//
+//      cout << "Sorted scores: ";
+//    for (int score : scores) {
+//          cout << score << " ";
+//    }
+//    
+//    return 0;
+//}
