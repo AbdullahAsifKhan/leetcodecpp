@@ -26,7 +26,7 @@ int main() {
 
     // 1. DECLARATION AND INITIALIZATION
     cout << "1. DECLARATION AND INITIALIZATION" << endl;
-    cout << "----------------------------------" << endl;
+
     
     vector<int> vec1;                    // Empty vector
     vector<int> vec2(5);                 // Vector with 5 elements (all 0)
@@ -42,7 +42,6 @@ int main() {
 
     // 2. BASIC OPERATIONS
     cout << endl << "2. BASIC OPERATIONS" << endl;
-    cout << "-------------------" << endl;
     
     vector<int> vec;
     
@@ -75,7 +74,7 @@ int main() {
 
     // 3. MODIFIERS
     cout << endl << "3. MODIFIERS" << endl;
-    cout << "------------" << endl;
+
     
     vector<int> v1 = {1, 2, 3};
     vector<int> v2 = {4, 5, 6};
@@ -122,7 +121,6 @@ int main() {
 
     // 4. ITERATORS
     cout << endl << "4. ITERATORS" << endl;
-    cout << "------------" << endl;
     
     vector<int> nums = {10, 20, 30, 40, 50};
     
@@ -140,7 +138,6 @@ int main() {
 
     // 5. 2D VECTORS
     cout << endl << "5. 2D VECTORS" << endl;
-    cout << "------------" << endl;
     
     // 2D vector declaration
     vector<vector<int>> matrix(3, vector<int>(4, 0));  // 3x4 matrix with zeros
@@ -164,7 +161,7 @@ int main() {
 
     // 6. ALGORITHMS WITH VECTORS
     cout << endl << "6. ALGORITHMS WITH VECTORS" << endl;
-    cout << "--------------------------" << endl;
+
     
     vector<int> arr = {5, 2, 8, 1, 9, 3};
     printVector(arr, "Original array");
@@ -193,7 +190,6 @@ int main() {
 
     // 7. RESERVE AND RESIZE
     cout << endl << "7. RESERVE AND RESIZE" << endl;
-    cout << "---------------------" << endl;
     
     vector<int> v;
     cout << "Initial capacity: " << v.capacity() << endl;
@@ -219,7 +215,6 @@ int main() {
 
     // 8. EMPLACE (More efficient than insert/push_back)
     cout << endl << "8. EMPLACE OPERATIONS" << endl;
-    cout << "----------------------" << endl;
     
     vector<pair<int, char>> vp;
     vp.emplace_back(1, 'a');      // Construct in place
@@ -234,7 +229,6 @@ int main() {
 
     // 9. VECTOR OF STRUCTS
     cout << endl << "9. VECTOR OF STRUCTS" << endl;
-    cout << "-------------------" << endl;
     
     struct Student {
         string name;
@@ -254,7 +248,6 @@ int main() {
 
     // 10. COMMON LEETCODE PATTERNS
     cout << endl << "10. COMMON LEETCODE PATTERNS" << endl;
-    cout << "----------------------------" << endl;
     
     // a) Two Sum pattern
     vector<int> nums2 = {2, 7, 11, 15};
